@@ -1,0 +1,15 @@
+#IT{
+	background-image: url(img/Pattern_4.jpg);
+    height: 457px;
+}
+#IT ul li{
+	list-style-type: disc;
+	color:#fed136;
+}
+#IT p a{
+	color: #fed136;
+}
+@media only screen and (max-width: 488px){
+.name h1{
+	font-size: 23px;
+}

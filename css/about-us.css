@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lobster');
+!
+ * Start Bootstrap - Round About (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* header */
+/*.navbar{
+	margin-bottom: 0;
+}
+
+.navbar .container a{
+	font-size: 20px;
+	font-family: 'Lobster', sans-serif;
+	color: #fed136;
+}
+
+.navbar .container a:hover{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: #fed136;
+}
+
+.navbar .container .collapse .nav li a{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 5px;
+	color: #fed136;
+	
+}
+.navbar .container .collapse .nav li{
+	margin-top: 20px;
+}
+
+.navbar .container .collapse .nav li a:hover{
+	color: #222222;
+	background: #fed136;
+}
+
+.navbar .container .navbar-collapse .nav li a{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif; 
+	color: #fed136;
+}
+
+.navbar .container .navbar-collapse .nav li a:hover{
+	color: #222222;
+	background: #fed136;
+}
+
+.navbar{
+	border-radius: 0;
+}*/
+
+body {
+     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+#back{
+	background: #fed136;
+	width: 100%;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+#round1{
+  position: absolute;
+  top: 1000px;
+  left: 600px;
+}
+
+#container{
+	width: 100%;
+	position: relative;
+}
+
+.hello p{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif; 
+	color: #222222;
+}

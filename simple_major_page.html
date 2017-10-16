@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple Major Page</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="simple_major_page.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="w3.css">
+	<script src="js/main.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+
+</head>
+<body>
+	<div id="container">
+		<!-- Header -->
+		
+		<nav class="navbar navbar-inverse" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand " id="Logo" href="home.html"><img  src="img/Logo-Official.png" alt=""></a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<li><a href="home.html">Home</a></li>
+						<li class="active"><a href="universities.html">Universities</a></li>
+						<li><a href="about-us.html">About Us</a></li>
+
+					</ul>
+				</div>
+			</div><!--/.container-->
+		</nav><!--/nav-->
+
+		<div id="major_name">
+			<p>Department of Computer Studies</p>
+		</div>
+
+		<div id="statements">
+			<div id="state_ment">	
+				<div class="statement_1 col-xs-12 col-sm-5 col-sm-offset-2 col-md-3  col-lg-2 col-lg-offset-1 wow fadeInUp data-wow-duration="1000ms" data-wow-delay="600ms""><div class="statement1"><p>Last Year's Average Marks<br>460</p></div></div>
+				<div class="statement_2 col-xs-12 col-sm-5 col-sm-offset-2 col-md-3  col-lg-2 col-lg-offset-1 wow fadeInUp data-wow-duration="1000ms" data-wow-delay="600ms""><div class="statement2"><p>Job Perspective<br>80%</p></div></div>
+				<div class="statement_3 col-xs-12 col-sm-5 col-sm-offset-2 col-md-3  col-lg-2 col-lg-offset-1 wow fadeInUp data-wow-duration="1000ms" data-wow-delay="600ms""><div class="statement3"><p>Teacher : Students<br>1:22</p></div></div>
+				<div class="statement_4 col-xs-12 col-sm-5 col-sm-offset-2 col-md-3  col-lg-2 col-lg-offset-1 wow fadeInUp data-wow-duration="1000ms" data-wow-delay="600ms""><div class="statement4"><p>Special Marks<br>Maths- 80</p></div></div>
+			</div>
+			<div id="subjects">
+				<div id="tittle">
+					<p>Courses</p>
+				</div>
+				<div id="courses">
+					<div class="row">
+						<div class="col-md-12 col-lg-12">
+							<ul>
+								<li>
+									<p>
+										<i class="fa fa-circle" aria-hidden="true"></i>
+										Bachelor of Sciences (Computer Science)
+									</p>
+								</li>
+								<li>
+									<p>
+										<i class="fa fa-circle" aria-hidden="true"></i>
+										Master of Sciences (Computer Science)
+									</p>
+								</li>
+								<li>
+									<p>
+										<i class="fa fa-circle" aria-hidden="true"></i>
+										Philosophia Doctor (Computer Science)
+									</p>
+								</li>
+								<li>
+									<p>
+										<i class="fa fa-circle" aria-hidden="true"></i>
+										Diploma Courses
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+
+</div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lobster');
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+	background-image: url("img/Ulb.jpg");
+}
+#major_name{
+	width: 100%;
+	height: 100px;
+	background: #222222;
+	color: #fed136;
+	font-size: 50px;
+	padding-left: 70px;
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;	
+}
+#major_name p{
+	animation: fadeInUp 300ms linear 300ms both;
+}
+#statements{
+	background: transparent;
+	height: 700px;
+	width: 100%;
+}
+.statement_1{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+  background: #222222;
+  color: #fed136;
+  border: 3px solid #222222;
+  box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  animation: fadeInUp 300ms linear 300ms both;
+}
+.statement_2{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+  background: #222222;
+  color: #fed136;
+  border: 3px solid #222222;
+  box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  animation: fadeInUp 300ms linear 600ms both;
+}
+.statement_3{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+  background: #222222;
+  color: #fed136;
+  border: 3px solid #222222;
+  box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  animation: fadeInUp 300ms linear 900ms both;
+}
+.statement_4{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+  background: #222222;
+  color: #fed136;
+  border: 3px solid #222222;
+  box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  animation: fadeInUp 300ms linear 1200ms both;
+}
+#state_ment{
+	height: 300px;
+	width: 100%;
+	background: transparent;
+}
+#statements #state_ment .statement .statement1{
+	animation: fadeInUp 300ms linear 300ms both;
+}
+.statement2{
+	animation: fadeInUp 300ms linear 600ms both;
+}
+.statement3{
+	animation: fadeInUp 300ms linear 900ms both;	
+}
+.statement4{
+	animation: fadeInUp 300ms linear 1200ms both;
+}
+.statement1 p{
+	padding-top: 90px;
+	text-align: center;
+	color: #fed136;
+}
+.statement2 p{
+	padding-top: 90px; 
+	text-align: center;
+	color: #fed136;
+}
+.statement3 p{
+	padding-top: 90px; 
+	text-align: center;
+	color: #fed136;
+}
+.statement4 p{
+	padding-top: 90px; 
+	text-align: center;
+	color: #fed136;
+}
+
+#tittle{
+	background: transparent;
+	width: 100%;
+	height: 100px;
+}
+#tittle p{
+	color: #fed136;
+	padding-left: 100px;
+	padding-top: 20px;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;	
+}
+#courses{
+	background: transparent;
+	width: 100%;
+	height: 300px;
+}
+#courses ul li{
+	display: block;
+	padding-left: 100px;
+	padding-top: 40px;
+	color: #fed136;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 480px){
+#container{
+	background-image: url(img/Ulb-copy.jpg);
+	height: 2000px;
+}
+#subjects{
+	width: 100%;
+	height: 450px;	
+}
+.statement_1{
+	margin-left: 45px;
+}
+.statement_2{
+	margin-left: 45px;
+}
+.statement_3{
+	margin-left: 45px;
+}
+.statement_4{
+	margin-left: 45px;
+}
+#state_ment{
+	height: 1200px;
+}
+#tittle p{
+	padding-left: 20px;
+}
+/*#tittle{
+	background: #222222;
+}*/
+#major_name{
+	padding-left: 5px;
+	padding-top: 10px;
+	font-size: 35px;	
+}
+#courses{
+	height: 350px;
+}
+#courses ul li{
+	display: block;
+	padding-left: 10px;
+	padding-top: 40px;
+	color: #fed136;
+	font-size: 25px;
+}
+}

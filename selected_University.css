@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar .container a{
+	font-size: 20px;
+	font-family: 'Lobster', sans-serif;
+	color: #fed136;
+}
+
+.navbar .container a:hover{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: #fed136;
+}
+
+.navbar .container .collapse .nav li a{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 5px;
+	color: #fed136;
+	margin-top: 20px;
+}
+
+.navbar .container .collapse .nav li a:hover{
+	color: #222222;
+	background: #fed136;
+}
+
+.navbar .container .navbar-collapse .nav li a{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif; 
+	color: #fed136;
+}
+
+.navbar .container .navbar-collapse .nav li a:hover{
+	color: #222222;
+	background: #fed136;
+}
+
+.navbar{
+	border-radius: 0;
+}
+
+
+/*---header---*/
+#uni_header{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background: url(img/uni/convo.jpg);
+}
+
+.title{
+	bottom: 50px;
+	position: absolute;
+}
+.logo img{
+	width: 80px;
+	height: 120px;
+	border-radius: 5px;
+}
+.uni_title{
+	width:100%;	
+}
+.uni_title h1{
+	color: 	#fed136;
+	font-size: 50px;
+}
+
+/*--department--*/
+.department{
+	width: 100%;
+	margin-top: 30px;
+}
+.department h1{
+	padding: 20px 0px 10px 30px;
+	height: 100px;
+	font-size: 50px;
+	width: 100%;
+	background: transparent;
+	color: #fed136;
+	text-align: left;
+}
+.deprt{
+	margin-left: -50px;
+	background: transparent;
+	margin-bottom: 10px;
+}
+.list ul li{
+	color: black;
+	list-style-type: disc; 
+	padding: 5px;
+	margin-bottom: 30px;
+	height: 10px;
+}
+.list ul li a{
+	color: black;
+	outline: none;
+}
+.list ul li a:hover{
+	line-height: 20px;
+	color: #fed136;
+	outline: none;
+	text-decoration: none; 
+	background: black;
+	border-radius: 5px;
+}
+.list h1{
+	font-size: 30px;
+	color: #fed136;
+	padding-bottom: 10px;
+}
+
+/*--Bio--*/
+.bio p{
+	text-align: left;
+}
+.prof{
+	width: 100%;
+}
+.prof p{
+	color: black;
+}
+/*--rest--*/
+.rest{
+	background-image: url(photo/Pattern_5.jpg);
+	padding: 5px;
+}
+.requriement{
+	height: 80px;
+	animation: fadeInUp 300ms linear 300ms both;
+}
+.accept{
+	 animation: fadeInUp 300ms linear 600ms both;
+}
+.scholar{
+	 animation: fadeInUp 300ms linear 900ms both;
+}
+.box{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+  background: #222222;
+  color: #fed136;
+  border: 3px solid #222222;
+  box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-box-shadow: inset 0 0 0 5px #fed136;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+.box p{
+	color: #fed136;
+	padding-top: 40px;
+	text-align: center;
+}
+p{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+/*--campus--*/
+.campus{
+	width: 100%;
+	color: #222222;
+	margin-top: 30px;
+}
+.campus h1{
+	margin-left: -30px;
+	padding-left: 50px;
+	padding-top: 20px;
+	height: 100px;
+	font-size: 50px;
+	width: 100%;
+	background: transparent;
+	color: #fed136;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+
+@media only  screen and (max-width: 480px){
+.campus h1{
+	width: 116%;
+	height: 100px;
+	font-size: 50px;
+	padding: 20px 20px 20px;	
+	color: #fed136;
+	text-align: center;
+}
+.deprt{
+	width: 116%;
+	margin-left: -20px;
+	background: transparent;
+}
+.deprt h1{
+	background: transparent;
+}
+.department h1{
+	width: 100%;
+	height: 100px;
+	font-size: 40px;
+	padding: 20px 20px 20px	20px;	
+	color: #fed136;
+	text-align: center;
+}
+.list ul li a{
+	display: block;
+}
+.list ul li a:hover{
+	display: block;
+}
+.logo img{
+	margin-top: 20px;
+}
+.heading{
+	
+	left: 5px;
+	bottom: -55px;
+}
+#uni_header{
+	position: relative;
+	background: url(img/uni/convo_responsive.jpg);
+}
+.uni_title h1{
+	font-size: 30px;
+}
+.requirement{
+	margin-left: 45px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+.requirement{
+	margin-left: 300px;
+}
+}

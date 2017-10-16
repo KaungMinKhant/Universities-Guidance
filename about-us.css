@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lobster');
+!
+* Start Bootstrap - Round About (http://startbootstrap.com/)
+* Copyright 2013-2016 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
+
+/* header */
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar .container a{
+	font-size: 20px;
+	font-family: 'Lobster', sans-serif;
+	color: #fed136;
+}
+
+.navbar .container a:hover{
+	font-size: 20px;
+	font-family: 'Lobster', sans-serif;
+	color: #fed136;
+}
+
+.navbar .container .collapse .nav li a{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 5px;
+	color: #fed136;
+}
+
+.navbar .container .collapse .nav li a:hover{
+	color: #222222;
+	background: #fed136;
+}
+
+.navbar .container .navbar-collapse .nav li a{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif; 
+	color: #fed136;
+}
+
+.navbar .container .navbar-collapse .nav li a:hover{
+	color: #222222;
+	background: #fed136;
+}
+
+.navbar{
+	border-radius: 0;
+}
+
+body {
+	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+footer {
+	margin: 50px 0;
+}
+#round1{
+	position: absolute;
+	top: 1000px;
+	left: 600px;
+}
+
+#container{
+	width: 100%;
+	position: relative;
+	background-image: url("photo/Thit_Poke_Pin.jpg");
+}
+
+.hello h1{
+	color: black;
+	font-family: 'Lobster', sans-serif;
+}
+
+.hello p{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif; 
+	color: black;
+}
+
+.fblink a{
+	color: black;
+}
+
+.fblink a:hover {
+	color: blue;
+	outline: none;
+	text-decoration: none;
+}
+
+.fblink p{
+	color: black;
+}
+
+.hi h2{
+	color: black;
+}
+
+.fblink h3{
+	color: black;
+}
+
+.img1{
+	animation: flipInY 300ms linear 300ms both;
+}
+
+.img2{
+	animation: flipInY 300ms linear 300ms both;
+}
+
+.img3{
+	animation: flipInY 300ms linear 2s both;
+}
+
+.img4{
+	animation: flipInY 300ms linear 2s both;
+}
+
+.img5{
+	animation: flipInY 300ms linear 2s both;
+}
+
+.img6{
+	animation: flipInY 300ms linear 2.5s both;
+}
+
+.img7{
+	animation: flipInY 300ms linear 2.5s both;
+}
+
+.icon{
+	margin-right: 5px;
+}
+

@@ -1,0 +1,37 @@
+.name{
+	width: 100%;
+	height: 80px;
+	background: #fed136;
+	/*border-radius: 5px;*/
+	border: 0.5px solid#fed136;
+	
+}
+.name h1{
+	padding-bottom: 10px;
+	color: black;
+}
+#Arts_and_Science{
+	background-image: url(img/Pattern_4.jpg);
+	
+}
+#Arts_and_Science ul li{
+	list-style-type: disc;
+	color:#fed136;
+}
+#Arts_and_Science p a{
+	color:  #fed136;
+	line-height: 2.5;
+}
+
+#color_fill{
+	background: black;
+	height: 180px;
+}
+
+@media only screen and (max-width: 488px){
+#color_fill{
+	display: none;
+}
+.name h1{
+	font-size: 30px;
+}

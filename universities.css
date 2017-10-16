@@ -1,0 +1,198 @@
+#container{
+	width: 100%;
+}
+/*--nav bar--*/
+
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0px;
+}
+
+.navbar .container a{
+	font-size: 20px;
+	font-family: 'Lobster', sans-serif;
+	color: #fed136;
+}
+
+.navbar .container a:hover{
+	font-size: 20px;
+	font-family: 'Lobster', sans-serif;
+	color: #fed136;
+}
+
+.navbar .container .collapse .nav li a{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 5px;
+	color: #fed136;
+}
+
+.navbar .container .collapse .nav li a:hover{
+	color: #222222;
+	background: #fed136;
+}
+
+.navbar .container .navbar-collapse .nav li a{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif; 
+	color: #fed136;
+}
+
+.navbar .container .navbar-collapse .nav li a:hover{
+	color: #222222;
+	background: #fed136;
+}
+
+/*--BUTTON--*/
+#nyansin_1{
+	background: #222222;
+	height: 10px;
+}
+#nyansin_2{
+	background: #222222;
+	height: 5px;
+}
+#shrt{
+	width: 100%;
+	background: #222222;
+}
+#shrt ul{
+	float: right;
+}
+.row ul li{
+	display: inline-block;
+}
+#shrt{
+	margin-bottom: none;
+}
+#shrt a{
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #fed136;
+	margin-left: 5px;
+}
+#shrt ul li a:hover{
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #222222;
+	background: #fed136;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/*--- part--*/
+
+
+.name{
+	width: 100%;
+	height: 70px;
+	background: #222222;
+	border: 2px solid #fed136;
+}
+.name h1{
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	color: #fed136;
+}
+#content{
+	background-image: url("img/pattern_4.jpg");
+}
+
+#Yangon_Title{
+	margin-top: none;
+}
+#Yangon{
+	background: transparent;
+}
+#Yangon p a{
+	color:  #fed136;
+}
+#Mandalay{
+	background: transparent;
+}
+#Mandalay p a{
+	color: #fed136;
+}
+#Sagaing{
+	background: transparent;
+}
+#Sagaing p a{
+	color: #fed136;
+}
+#Bago{
+	background: transparent;
+}
+#Bago p a{
+	color: #fed136;
+}
+#Ayerwaddy{
+	background: transparent;
+}
+#Ayerwaddy p a{
+	color: #fed136;
+}
+#Magway{
+	background: transparent;
+}
+#Magway p a{
+	color: #fed136;
+}
+#TTY{
+	background: transparent;
+}
+#TTY p a{
+	color: #fed136;
+}
+#Shan{
+	background: transparent;
+}
+#Shan p a{
+	color: #fed136;
+}
+#Kachin{
+	background: transparent;
+}
+#Kachin p a{
+	color: #fed136;
+}
+#Kayar{
+	background: transparent;
+}
+#Kayar p a{
+	color: #fed136;
+}
+#Kayin{
+	background: transparent;
+}
+#Kayin p a{
+	color: #fed136;
+}
+#Chin{
+	background: transparent;
+}
+#Chin p a{
+	color: #fed136;
+}
+#Mon{
+	background: transparent;
+}
+#Mon p a{
+	color: #fed136;
+}
+#Rakhine{
+	background: transparent;
+}
+#Rakhine p a{
+	color: #fed136;
+}
+#Private{
+	background: transparent;
+}
+#Private p a{
+	color: #fed136;
+}
+
+
+
+
