@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="home.css">
@@ -15,34 +16,33 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
 	<div id="container">
 		<!-- Header -->
 		
-		<nav class="navbar navbar-inverse" role="banner">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand " id="Logo" href="home.html"><img src="img/Logo-Official.png" alt=""></a>
-				</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+			<a id="logo" class="navbar-brand text-light" href="#">Universities' Guidance</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-				<div class="collapse navbar-collapse navbar-right">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="home.html">Home</a></li>
-						<li><a href="universities.html">Universities</a></li>
-						<li><a href="about-us.html">About Us</a></li>
-
-					</ul>
-				</div>
-			</div><!--/.container-->
-		</nav><!--/nav-->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Universities</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!--/nav-->
 		
 		
 		<!-- Search place -->
@@ -51,109 +51,25 @@
 			<!-- slider -->
 
 			<div class="w3-content w3-display-container">
-				<img class="mySlides" src="photo/yulibrarywall.jpg" style="width:100%;height:600px;">
+				<img class="mySlides" src="photo/4.jpg" style="width:100%;height:600px;">
 				<img class="mySlides" src="photo/ytu1.jpg" style="width:100%;height:600px;">
-				<img class="mySlides" src="photo/uit1.jpg" style="width:100%;height:600px;">
-				<img class="mySlides" src="photo/12.jpg" style="width:100%;height:600px;">
-				<img class="mySlides" src="photo/um2.jpg" style="width:100%;height:600px;">
+				<img class="mySlides" src="photo/9.jpg" style="width:100%;height:600px;">
+				<img class="mySlides" src="photo/13.jpg" style="width:100%;height:600px;">
 			</div>
 
 			<!-- slider finished -->
 
 		</div>
-		<div class="ab">
+		<div class="first_row">
 			<div class="row">
-				<div class=" col-xs-pull-1 col-xs-12  col-sm-pull-1 col-sm-12 col-md-offset-3 col-md-9 col-lg-12">
+				<div class="col">
 					<div class="ask animated fadeIn">
-						<h1>Find Your Desired University</h1>
+						<h1 id="title_1">Find Your Desired University</h1>
 					</div>					
-				</div>
-				<div class="row">
-
-					
-					<div class="col-md-push-1 col-md-12  col-lg-12">
-						<div class="fields animated fadeIn">
-							<select id="fields-box" class="form-control">
-								<option >Medical</option>
-								<option >IT</option>
-								<option >Arts and Science</option>
-								<option >Business</option>
-								<option selected>Engineering</option>
-							</select>
-							<div class="row">
-								<div class="col-md-offset-3 col-md-7">
-									<div class="submit">
-										<button id="submit-button" onclick="open_search()"><a href="#">Submit</a></button>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-					</div>
 				</div>
 			</div>
 		</div>
-		<!-- <div id="news">
-			<div class="title">
-				<h5>
-					Here is top activities of universities in Myanmar.
-				</h5>
-			</div>
-			<div id="activities">
-				<div class="row first_block">
-					<div class="col-md-5 col-xs-12">
-						<div class="first_image">
-							<img class="editior" src="img/basketball_official.jpg" alt="">
-						</div>
-					</div>
-					<div class="col-md-7 col-xs-12 first_blog">
-						<h6>This is a memorial photo of Yangon University Basketball team playing against Yadanarpon University Basketball team.</h6><p>		The Universities' Basketball Tournament is annually held in each university and overall university. The tournament is very competitive and making it one of the most popuslar sports event in univeristies of Myanmar.</p>
-					</div>
-				</div>
-				<div class="row second_block">
-					<div class="col-md-7 col-xs-12">
-						<div class="second_blog">
-							<h1>
-								This is a photo of science fair at the Recreation Center of University of Yangon.
-							</h1>
-							<p>
-								Science Fair is an anual event of the University of Yangon where excellent students of the University of Yangon show their very best scientifical creation. In this event, many IT companies in Myanmar come and show their products.
-							</p>	
-						</div>
-					</div>
-					<div class="col-md-5 col-xs-12">
-						<div class="second_image">
-							<img src="img/Science_Fair.jpg" alt="">
-						</div>
-						<div class="second_blog_responsive">
-							<h1>
-								This is a photo of science fair at the Recreation Center of University of Yangon.
-							</h1>
-							<p>
-								Science Fair is an anual event of the University of Yangon where excellent students of the University of Yangon show their very best scientifical creation. In this event, many IT companies in Myanmar come and show their products.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="row third_block">
-					<div class="col-md-5 col-xs-12">
-						<div class="third_image">
-							<img src="img/Major_Trip.jpg" alt="">
-						</div>
-					</div>
-					<div class="col-md-7 col-xs-12">
-						<div class="third_blog">
-							<h1>
-								This is a photo of Computer Science students of University of Yangon at Monywar during a major trip.
-							</h1>
-							<p>
-								Major trips are common in most of the universities of Myanmar. These major trips improve the friendship between the students and also students have a rest because of this. As everyone know, travelling gives you knowledges. That is why major trips are held in most of the universities of Myanmar.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
+		
 		<div id="convo">
 			<section id="feature" >
 				<div class="container">
@@ -167,156 +83,156 @@
 						<div class="features">
 							<div class="col-md-4 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
 								<div class="feature-wrap">
-								<a href="submit-display(ArtsAndScience).html"><i class="fa fa-flask"></i></a>
+									<a href="submit-display(ArtsAndScience).html"><i class="fa fa-flask"></i></a>
 									<div class="text"><h2>Arts and Sciences</h2>
-									<h3>Click the icon to view the uni list.</h3></div>
-								</div>
-							</div><!--/.col-md-4-->
+										<h3>Click the icon to view the uni list.</h3></div>
+									</div>
+								</div><!--/.col-md-4-->
 
-							<div class="col-md-4 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<div class="feature-wrap">
-									<a href="submit-display(Bussiness).html"><i class="fa fa-line-chart"></i></a>
-									<div class="text"><h2>Business</h2>
-									<h3>Click the icon to view the uni list.</h3></div>
-								</div>
-							</div><!--/.col-md-4-->
+								<div class="col-md-4 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+									<div class="feature-wrap">
+										<a href="submit-display(Bussiness).html"><i class="fa fa-line-chart"></i></a>
+										<div class="text"><h2>Business</h2>
+											<h3>Click the icon to view the uni list.</h3></div>
+										</div>
+									</div><!--/.col-md-4-->
 
-							<div class="col-md-4 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<div class="feature-wrap">
-									<a href="submit-display(Engineering).html"><i class="fa fa-cogs"></i></a>
-									<div class="text"><h2>Engineering</h2>
-									<h3>Click the icon to view the uni list.</h3></div>
-								</div>
-							</div><!--/.col-md-4-->
+									<div class="col-md-4 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+										<div class="feature-wrap">
+											<a href="submit-display(Engineering).html"><i class="fa fa-cogs"></i></a>
+											<div class="text"><h2>Engineering</h2>
+												<h3>Click the icon to view the uni list.</h3></div>
+											</div>
+										</div><!--/.col-md-4-->
 
-							<div class="col-md-6 col-md-push-2 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<div class="feature-wrap">
-									<a href="submit-display(IT).html"><i class="fa fa-laptop"></i></a>
-									<div class="text"><h2>IT</h2>
-									<h3>Click the icon to view the uni list.</h3></div>
-								</div>
-							</div><!--/.col-md-4-->
+										<div class="col-md-6 col-md-push-2 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+											<div class="feature-wrap">
+												<a href="submit-display(IT).html"><i class="fa fa-laptop"></i></a>
+												<div class="text"><h2>IT</h2>
+													<h3>Click the icon to view the uni list.</h3></div>
+												</div>
+											</div><!--/.col-md-4-->
 
-							<div class="col-md-6 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<div class="feature-wrap">
-									<a href="submit-display(Medical).html"><i class="fa fa-heartbeat"></i></a>
-									<div class="text"><h2>Medical</h2>
-									<h3>Click the icon to view the uni list.</h3></div>
-								</div>
-							</div><!--/.col-md-4-->
-						</div><!--/.services-->
-					</div><!--/.row-->    
-				</div><!--/.container-->
-			</section><!--/#feature-->
+											<div class="col-md-6 col-xs-12 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+												<div class="feature-wrap">
+													<a href="submit-display(Medical).html"><i class="fa fa-heartbeat"></i></a>
+													<div class="text"><h2>Medical</h2>
+														<h3>Click the icon to view the uni list.</h3></div>
+													</div>
+												</div><!--/.col-md-4-->
+											</div><!--/.services-->
+										</div><!--/.row-->    
+									</div><!--/.container-->
+								</section><!--/#feature-->
 
-			<section id="recent-works">
-				<div class="container">
-					<div class="center wow fadeInDown">
-						<h2>Acitivities  in Myanmar  Universities</h2>
-						<p class="lead">Here are some activities of our Universities such as Sports, Exhibitions ,Field Trips, etc.</p>
-					</div>
+								<section id="recent-works">
+									<div class="container">
+										<div class="center wow fadeInDown">
+											<h2>Acitivities  in Myanmar  Universities</h2>
+											<p class="lead">Here are some activities of our Universities such as Sports, Exhibitions ,Field Trips, etc.</p>
+										</div>
 
-					<div class="row">   
+										<div class="row">   
 
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<img class="img-responsive" src="img/basketball_official.jpg" alt="">
-								<div class="overlay">
-									<div class="recent-work-inner">
-										<h3>Basketball Competitions</h3>
-										<p>This is a picture of a basketball competitions.</p>
-										<a class="preview" href="img/basketball_official.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-									</div> 
-								</div>
+											<div class="col-xs-12 col-sm-4 col-md-4">
+												<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+													<img class="img-responsive" src="img/basketball_official.jpg" alt="">
+													<div class="overlay">
+														<div class="recent-work-inner">
+															<h3>Basketball Competitions</h3>
+															<p>This is a picture of a basketball competitions.</p>
+															<a class="preview" href="img/basketball_official.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+														</div> 
+													</div>
+												</div>
+											</div> 
+
+											<div class="col-xs-12 col-sm-4 col-md-4">
+												<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+													<img class="img-responsive" src="img/Science_Fair.jpg" alt="">
+													<div class="overlay">
+														<div class="recent-work-inner">
+															<h3>Science Fairs</h3>
+															<p>This is a picture of a Science Fair in Universities of Yangon.</p>
+															<a class="preview" href="img/Science_Fair.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+														</div> 
+													</div>
+												</div>
+											</div>   
+
+											<div class="col-xs-12 col-sm-4 col-md-4">
+												<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+													<img class="img-responsive" src="img/Major_Trip.jpg" alt="">
+													<div class="overlay">
+														<div class="recent-work-inner">
+															<h3>Major Trips</h3>
+															<p>This is a picture of a major trip of Computer Studies students.</p>
+															<a class="preview" href="img/Major_Trip.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+														</div> 
+													</div>
+												</div>
+											</div>   
+
+											<div class="col-xs-12 col-sm-4 col-md-4">
+												<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+													<img class="img-responsive" src="img/Football_Tournament.jpg" alt="">
+													<div class="overlay">
+														<div class="recent-work-inner">
+															<h3>Football Tournament</h3>
+															<p>This is the picture of YU Football Team celebrating their victory over UM2 Football team at the final of 2016 football tournament.</p>
+															<a class="preview" href="img/Football_Tournament.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+														</div> 
+													</div>
+												</div>
+											</div>   
+
+											<div class="col-xs-12 col-sm-4 col-md-4">
+												<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+													<img class="img-responsive" src="img/IT_Camp.jpg" alt="">
+													<div class="overlay">
+														<div class="recent-work-inner">
+															<h3>IT Camps</h3>
+															<p>This is a picture of UCSY IT Camp 2017. IT Camps are held anually at IT Universities.</p>
+															<a class="preview" href="img/IT_Camp.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+														</div> 
+													</div>
+												</div>
+											</div> 
+
+											<div class="col-xs-12 col-sm-4 col-md-4">
+												<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+													<img class="img-responsive" src="img/ThinGyan.jpg" alt="">
+													<div class="overlay">
+														<div class="recent-work-inner">
+															<h3>Universities' Thingyans</h3>
+															<p>Thingyans are held in most universities of Myanmar.</p>
+															<a class="preview" href="img/ThinGyan.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+														</div> 
+													</div>
+												</div>
+											</div>   
+										</div><!--/.row-->
+									</div><!--/.container-->
+								</section><!--/#recent-works-->
 							</div>
-						</div> 
 
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<img class="img-responsive" src="img/Science_Fair.jpg" alt="">
-								<div class="overlay">
-									<div class="recent-work-inner">
-										<h3>Science Fairs</h3>
-										<p>This is a picture of a Science Fair in Universities of Yangon.</p>
-										<a class="preview" href="img/Science_Fair.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-									</div> 
-								</div>
-							</div>
-						</div>   
-
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<img class="img-responsive" src="img/Major_Trip.jpg" alt="">
-								<div class="overlay">
-									<div class="recent-work-inner">
-										<h3>Major Trips</h3>
-										<p>This is a picture of a major trip of Computer Studies students.</p>
-										<a class="preview" href="img/Major_Trip.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-									</div> 
-								</div>
-							</div>
-						</div>   
-
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<img class="img-responsive" src="img/Football_Tournament.jpg" alt="">
-								<div class="overlay">
-									<div class="recent-work-inner">
-										<h3>Football Tournament</h3>
-										<p>This is the picture of YU Football Team celebrating their victory over UM2 Football team at the final of 2016 football tournament.</p>
-										<a class="preview" href="img/Football_Tournament.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-									</div> 
-								</div>
-							</div>
-						</div>   
-
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<img class="img-responsive" src="img/IT_Camp.jpg" alt="">
-								<div class="overlay">
-									<div class="recent-work-inner">
-										<h3>IT Camps</h3>
-										<p>This is a picture of UCSY IT Camp 2017. IT Camps are held anually at IT Universities.</p>
-										<a class="preview" href="img/IT_Camp.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-									</div> 
-								</div>
-							</div>
-						</div> 
-
-						<div class="col-xs-12 col-sm-4 col-md-4">
-							<div class="recent-work-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-								<img class="img-responsive" src="img/ThinGyan.jpg" alt="">
-								<div class="overlay">
-									<div class="recent-work-inner">
-										<h3>Universities' Thingyans</h3>
-										<p>Thingyans are held in most universities of Myanmar.</p>
-										<a class="preview" href="img/ThinGyan.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-									</div> 
-								</div>
-							</div>
-						</div>   
-					</div><!--/.row-->
-				</div><!--/.container-->
-			</section><!--/#recent-works-->
-		</div>
-
-	</div>
+						</div>
 
 
-	<script>
+						<script>
 
-		var myIndex = 0;
-		carousel();
+							var myIndex = 0;
+							carousel();
 
-		function carousel() {
-			var i;
-			var x = document.getElementsByClassName("mySlides");
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";  
-			}
-			myIndex++;
-			if (myIndex > x.length) {myIndex = 1}    
-				x[myIndex-1].style.display = "block";  
+							function carousel() {
+								var i;
+								var x = document.getElementsByClassName("mySlides");
+								for (i = 0; i < x.length; i++) {
+									x[i].style.display = "none";  
+								}
+								myIndex++;
+								if (myIndex > x.length) {myIndex = 1}    
+									x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
